@@ -1,12 +1,14 @@
 terraform {
 
+/*
   # cloud {
-  #   organization = "JohnKossCo"
+  #   organization = "ACG-Terraform_Labs"
 
   #   workspaces {
   #     name = "learn-terraform-cloud"
   #   }
   # }
+*/
 
   required_providers {
     aws = {
@@ -17,3 +19,4 @@ terraform {
 
   required_version = ">= 0.14.0"
 }
+
